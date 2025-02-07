@@ -1,0 +1,99 @@
+*{
+    font-family: Arial;
+    color: #fff;
+    
+    margin: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input{
+    color: #1e1e1e;
+    width: 200px;
+    border-radius: 15px;
+    border: 0;
+}
+
+button{
+    background-color: greenyellow;
+    border-radius: 15px;
+    border: 0;
+    color: #1e1e1e;
+    width: 70px;
+    height: 15px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background_image{
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_team{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.person{
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    justify-content: center;
+    width: 250px;
+}
+
+textarea{
+    color: #1e1e1e;
+}
+
+#placesList{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.place img{
+    width: 300px;
+    height: 300px;
+}
